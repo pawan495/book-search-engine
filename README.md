@@ -1,12 +1,13 @@
-## Book Search Engine
+# Challenge-BookSearchEngine
 
-*A MERN stack application using Google Books API that allows a user to login, search books and save favorites.*
+## Welcome
 
-### Application Deployed to Heroku
+This online book search tool is powered by MongoDB, express.js, React, and Node.js! Use it to search for your favourite books via the Google API and save them to your profile for future reference! Since the books are tied to your account, this app is available for anyone to use and record their own favourites!
 
+All data is saved to an online server so you can access your data from anywhere.
 
+[Click here to check it out!]()
 
-### Application Screenshot
+Preview:
 
-![](images/book-search.png)
-
+![Screenshot Preview](screenshot.png)
