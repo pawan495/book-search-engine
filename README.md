@@ -10,4 +10,4 @@ All data is saved to an online server so you can access your data from anywhere.
 
 Preview:
 
-![Screenshot Preview](screenshot.png)
+![Screenshot Preview](pic1.png)
