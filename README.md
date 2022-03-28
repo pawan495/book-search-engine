@@ -4,7 +4,7 @@
 
 ### Application Deployed to Heroku
 
-https://react-book-search-engine.herokuapp.com/
+
 
 ### Application Screenshot
 
