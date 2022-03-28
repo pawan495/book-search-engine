@@ -1,6 +1,9 @@
 {
   "dependencies": {
-    "apollo-server-express": "^2.15.0"
+    "apollo-server-express": "^2.15.0",
+    "bcrypt": "^5.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.9"
   },
   "name": "book-search-engine",
   "description": "*A MERN stack application using Google Books API that allows a user to login, search books and save favorites.*",

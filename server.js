@@ -27,7 +27,7 @@ const startServer = async () => {
    server.applyMiddleware({ app });
 
    // provide link to graphql sandbox
-   console.log(`Use GraphQL at http://localhost:${PORT}${server.graphqlPath}`);
+    console.log(`Use GraphQL at http://localhost:${PORT}${server.graphqlPath}`);
 };
 
 // apollo start
