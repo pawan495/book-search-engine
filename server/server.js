@@ -1,11 +1,11 @@
 const express = require("express");
 const path = require("path");
-const db = require("./server/config/connection");
+const db = require("./config/connection");
 
 // apollo and related imports
 const { ApolloServer } = require("apollo-server-express");
-const { typeDefs, resolvers } = require("./server/schemas");
-const { authMiddleware } = require("./server/utils/auth");
+const { typeDefs, resolvers } = require("./schemas");
+const { authMiddleware } = require("./utils/auth");
 
 // express setup
 const app = express();
@@ -27,7 +27,7 @@ const startServer = async () => {
    server.applyMiddleware({ app });
 
    // provide link to graphql sandbox
-    console.log(`Use GraphQL at http://localhost:${PORT}${server.graphqlPath}`);
+   console.log(`Use GraphQL at http://localhost:${PORT}${server.graphqlPath}`);
 };
 
 // apollo start
